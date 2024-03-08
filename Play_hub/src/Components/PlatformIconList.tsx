@@ -7,7 +7,7 @@ import {
   FaAndroid,
 } from "react-icons/fa";
 
-import { HStack, Icon, Text } from "@chakra-ui/react";
+import { HStack, Icon} from "@chakra-ui/react";
 import { Platform } from "../Hooks/useGames";
 import { MdPhoneIphone } from "react-icons/md";
 import {SiNintendo} from 'react-icons/si';

@@ -1,4 +1,3 @@
-import useData from "./useData";
 import Generes from "../Data/Generes";
 
 export interface Genre

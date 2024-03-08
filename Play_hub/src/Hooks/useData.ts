@@ -34,6 +34,7 @@ const useData = <T>(
             return;
           }
 
+          setError(err.message)
           setLoading(false);
         });
 

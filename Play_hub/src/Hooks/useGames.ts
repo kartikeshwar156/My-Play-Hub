@@ -1,7 +1,4 @@
-import { useEffect, useState } from "react";
-import API_client, { CanceledError } from "../Services/API_client";
 import useData from "./useData";
-import { Genre } from "./useGenres";
 import { GameQuery } from "../App";
 
 export interface Platform {

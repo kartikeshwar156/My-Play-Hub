@@ -1,8 +1,7 @@
-import React from 'react';
 import bullsEye from '../assets/bulls-eye.webp';
 import thumbsUp from '../assets/thumbs-up.webp';
 import meh from '../assets/meh.webp';
-import { Image, ImageProps, UseImageProps } from '@chakra-ui/react';
+import { Image, ImageProps } from '@chakra-ui/react';
 
 
 interface Props{
@@ -19,7 +18,7 @@ const emojiMap: {[key: number]: ImageProps} ={
 }
 
   return (
-	 <Image {...emojiMap[rating]}  marginTop='4px'/>
+	 <Image {...emojiMap[rating]}  marginTop='3px'/>
 	  // The ... (spread operator) is used to pass all properties of the emojiMap[rating] object as props to the Image component.
   )
 }
